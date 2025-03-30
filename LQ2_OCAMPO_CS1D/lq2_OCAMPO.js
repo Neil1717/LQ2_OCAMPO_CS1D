@@ -1,7 +1,7 @@
 // the variables below will store the users input, and will show dialog box that will ask the user the following questions
 let Name = prompt("Enter your name:");
 let Address = prompt("Enter your address:");
-let age = parseInt(prompt("Enter your age:"));
+let age = parseInt(prompt("Enter your age:")); // the parseInt will convert any input into int
 let Class_Role = prompt("Enter your class role (Officer, Student, Teacher):");
 let Course = prompt("Enter your course (BSCS, BSM, BAEL):");
 
@@ -28,3 +28,9 @@ let iterations = Math.floor(age / 4); //iterating (age / 4) times
 for (let i = 0; i < iterations; i++) {
     console.log(`Iteration ${i + 1}: ${Name}`);
 }
+
+/*
+//references
+Math.Floor() - JavaScript | MDN. (2025, February 11). MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
+W3Schools.com. (n.d.-e). https://www.w3schools.com/js/js_switch.asp
+*/
